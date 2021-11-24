@@ -147,6 +147,24 @@ img {
   font-weight: 500;
 }
 /*  SHOW MODAL */
+.show_modal {
+  visibility: visible;
+  opacity: 1;
+}
 
+.show_modal .modal_content {
+  transform: translate(0);
+}
 /*==========  BREAKPOINTS  ===========*/
 /*  FOR SMALL DEVICES  */
+@media screen and (min-width: 576px) {
+  .modal_content {
+    margin: auto;
+    width: 380px;
+    border-radius: 1.25rem;
+  }
+
+  .modal_img {
+    width: 170px;
+  }
+}
